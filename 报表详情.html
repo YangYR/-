@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="keywords" content="远成快运">
+    <meta name="description" content="远成快运">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <meta name="copyright" content="远成快运">
+
+    <!--需要加载的css文件-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--结束-->
+    <!--需要加载的js文件-->
+
+    <!--结束-->
+</head>
+<body class="clearfix">
+
+<div class="main detail-table-page">
+
+    <!---主题内容开始-->
+    <div class="main-content-wrap">
+        <div class="main-content">
+            <div class="search-info clearfix">
+                <div class="info-txt fl">
+                    当前筛选条件下已完成订单<span>100</span>笔，共￥<span>88</span>元，提成金额￥<span>88</span>元
+                </div>
+                <div class="operation fl">
+                    <!--<a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModal"><i class="iconfont icon-shujudaoru"></i>导入</a>-->
+                    <!--<a href="javascript:void(0)" class="export" data-toggle="modal" data-target="#myModal1"><i class="iconfont icon-daochu"></i>导出</a>-->
+                </div>
+            </div>
+            <div class="table-box">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>
+                            序号
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>订单号
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="订单号" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>运单号
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="运单号" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>下单时间
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="下单时间" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>发货客户
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="发货客户" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>寄件城区
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="寄件城区" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>收件城区
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="收件城区" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>订单金额
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="订单金额" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>支付方式
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="支付方式" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>订单来源
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="订单来源" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>代售网点编号
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="代售网点编号" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>代售网点提成
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="代售网点提成" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>指派时间
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="指派时间" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>营业部
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="营业部" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>店小二
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="店小二" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>运单确认时间
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="店小二" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                201603230001
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                张三
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                上海嘉定
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                200
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                在线支付
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                淘宝
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                2201545
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                888
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                水厂路营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                刘四
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)" target="_blank">
+                                20160811
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="page-cake">
+                    <form action="">
+                        <span>共20条记录  </span>
+                        <span> 当前显示10条</span>
+                        <a href=""><i class="iconfont icon-diyiyebackward"></i></a>
+                        <a href=""><i class="iconfont icon-shangyiyeprevious"></i></a>
+                        <span>第</span><input type="text"><span>页</span>
+                        <button type="submit">确定</button>
+                        <span>共10页</span>
+                        <a href=""><i class="iconfont icon-xiayiye"></i></a>
+                        <a href=""><i class="iconfont icon-diyiyebackward-copy"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/modal.min.js"></script>
+<script src="js/base.js"></script>
+
+</body>
+</html>

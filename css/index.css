@@ -1,0 +1,1951 @@
+input, button.select {
+  outline: none; }
+  input:focus, input:visited, input:active, button.select:focus, button.select:visited, button.select:active {
+    outline: none; }
+
+button:hover {
+  background: #46b9ab !important;
+  color: #fff !important; }
+
+.menu {
+  width: 180px;
+  height: 100%;
+  background: #333333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-bottom: 20px;
+  overflow: visible !important;
+  z-index: 99; }
+  .menu .inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: visible !important; }
+    .menu .inner .jt-btn {
+      position: absolute;
+      top: 50%;
+      right: -16px;
+      width: 16px;
+      height: 82px;
+      margin-top: -41px;
+      background: url("../images/jt_bg.png"); }
+      .menu .inner .jt-btn .left-show .left-jt {
+        display: block; }
+      .menu .inner .jt-btn .left-show .right-jt {
+        display: none; }
+      .menu .inner .jt-btn .right-show .left-jt {
+        display: none; }
+      .menu .inner .jt-btn .right-show .right-jt {
+        display: block; }
+      .menu .inner .jt-btn a {
+        display: inline-block;
+        width: 100%;
+        height: 100%; }
+        .menu .inner .jt-btn a img {
+          width: 6px;
+          height: 12px;
+          display: block;
+          margin: 35px 5px; }
+    .menu .inner .logo {
+      width: 100%;
+      height: 120px; }
+      .menu .inner .logo a {
+        display: inline-block;
+        width: 100%;
+        height: 120px; }
+        .menu .inner .logo a .img-big {
+          display: block;
+          width: 144px;
+          height: 77px;
+          margin: 21px auto; }
+        .menu .inner .logo a .img-small {
+          display: none;
+          width: 60px;
+          height: 60px;
+          margin: 30px auto; }
+    .menu .inner .menu-nav {
+      width: 100%; }
+      .menu .inner .menu-nav .menu-icon1 {
+        display: inline-block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        background: url("../images/mbig1.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .menu-icon2 {
+        display: inline-block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        background: url("../images/mbig2.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .menu-icon3 {
+        display: inline-block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        background: url("../images/mbig3.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .menu-icon4 {
+        display: inline-block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        background: url("../images/mbig4.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .menu-icon5 {
+        display: inline-block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        background: url("../images/mbig5.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .nav-control {
+        width: 100%; }
+        .menu .inner .menu-nav .nav-control .nav-name {
+          width: 100%;
+          height: 50px;
+          overflow: hidden; }
+          .menu .inner .menu-nav .nav-control .nav-name a {
+            width: 100%;
+            height: 100%;
+            font: 400 16px/50px "Microsoft Yahei";
+            color: #dcdcdc;
+            padding-left: 15px; }
+            .menu .inner .menu-nav .nav-control .nav-name a span {
+              font-size: 25px;
+              padding: 0 5px; }
+            .menu .inner .menu-nav .nav-control .nav-name a b {
+              font-weight: 400;
+              display: inline-block; }
+            .menu .inner .menu-nav .nav-control .nav-name a i {
+              padding: 0 5px;
+              font-size: 20px; }
+            .menu .inner .menu-nav .nav-control .nav-name a:hover {
+              background: #4FD2C2;
+              color: #fff; }
+        .menu .inner .menu-nav .nav-control .sub-nav {
+          width: 100%;
+          display: none; }
+          .menu .inner .menu-nav .nav-control .sub-nav ul {
+            width: 100%; }
+            .menu .inner .menu-nav .nav-control .sub-nav ul li {
+              width: 100%;
+              height: 50px;
+              text-align: center; }
+              .menu .inner .menu-nav .nav-control .sub-nav ul li a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                font: 400 14px/50px "Microsoft Yahei";
+                color: #DCDCDC; }
+                .menu .inner .menu-nav .nav-control .sub-nav ul li a:hover {
+                  color: #4ED2C4; }
+            .menu .inner .menu-nav .nav-control .sub-nav ul li.on a {
+              color: #4ED2C4; }
+        .menu .inner .menu-nav .nav-control .sub-nav.active {
+          display: block; }
+      .menu .inner .menu-nav .active .nav-name a, .menu .inner .menu-nav .nav-name:hover a {
+        background: #4FD2C2;
+        color: #fff; }
+      .menu .inner .menu-nav .active .nav-name .menu-icon1, .menu .inner .menu-nav .nav-name:hover .menu-icon1 {
+        background: url("../images/mhover1.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .active .nav-name .menu-icon2, .menu .inner .menu-nav .nav-name:hover .menu-icon2 {
+        background: url("../images/mhover2.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .active .nav-name .menu-icon3, .menu .inner .menu-nav .nav-name:hover .menu-icon3 {
+        background: url("../images/mhover3.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .active .nav-name .menu-icon4, .menu .inner .menu-nav .nav-name:hover .menu-icon4 {
+        background: url("../images/mhover4.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .active .nav-name .menu-icon5, .menu .inner .menu-nav .nav-name:hover .menu-icon5 {
+        background: url("../images/mhover5.png") no-repeat center;
+        background-size: 35px 35px; }
+      .menu .inner .menu-nav .active .sub-nav {
+        display: block; }
+
+.small-menu .menu-icon1, .small-menu .menu-icon2, .small-menu .menu-icon3, .small-menu .menu-icon4, .small-menu .menu-icon5 {
+  background-size: 50px 50px !important; }
+.small-menu .inner .menu-nav .nav-control .nav-name a span {
+  font-size: 35px;
+  position: relative;
+  top: -2px; }
+.small-menu .logo a .img-big {
+  display: none !important; }
+.small-menu .logo a .img-small {
+  display: block !important; }
+.small-menu .menu-nav {
+  height: 100%; }
+  .small-menu .menu-nav .nav-name a b, .small-menu .menu-nav .nav-name a i {
+    display: none; }
+  .small-menu .menu-nav .sub-nav {
+    display: none !important;
+    overflow: hidden; }
+
+.main {
+  width: 100%;
+  min-width: 1000px;
+  position: relative;
+  left: 180px;
+  background: #F3F3F3; }
+  .main .top-info {
+    height: 75px;
+    background: #333333; }
+    .main .top-info .same-info {
+      width: 25%;
+      height: 75px;
+      line-height: 75px;
+      text-align: center; }
+      .main .top-info .same-info span.iconfont {
+        font-size: 30px;
+        color: #4FD2C2; }
+        .main .top-info .same-info span.iconfont img {
+          position: relative;
+          top: 5px; }
+      .main .top-info .same-info b {
+        font-weight: 400;
+        font-size: 16px;
+        color: #4ABAAC; }
+      .main .top-info .same-info .num, .main .top-info .same-info i {
+        font-size: 16px;
+        color: #4ABAAC;
+        font-style: normal; }
+      .main .top-info .same-info .yellow {
+        font-weight: bold;
+        color: #FBC932; }
+      .main .top-info .same-info .green {
+        font-weight: bold;
+        color: #8AD726; }
+      .main .top-info .same-info .blue {
+        font-weight: bold;
+        color: #4DBAF8; }
+    .main .top-info .person-info {
+      width: 25%;
+      height: 75px;
+      line-height: 75px;
+      text-align: right;
+      padding-right: 40px; }
+      .main .top-info .person-info i {
+        font-style: normal;
+        font-size: 14px;
+        color: #4ABAAC; }
+      .main .top-info .person-info span, .main .top-info .person-info a {
+        font-weight: 400;
+        font-size: 16px;
+        color: #4ABAAC;
+        font-style: normal; }
+
+.main-content-wrap {
+  width: 100%;
+  height: 100%;
+  padding: 20px; }
+
+.main-content {
+  width: 100%;
+  padding: 20px;
+  background: #fff; }
+  .main-content .search-box form {
+    width: 100%; }
+    .main-content .search-box form span {
+      font: 400 14px/50px "Microsoft Yahei";
+      color: #333; }
+    .main-content .search-box form input {
+      outline: 0 none;
+      width: 120px;
+      height: 30px;
+      margin: 0 10px;
+      border: 1px solid #DBDAD9;
+      font: 400 14px/28px "Arial";
+      color: #666;
+      padding: 0 30px 0 10px;
+      background: url("../images/rili.png") no-repeat 95px center; }
+    .main-content .search-box form button {
+      width: 85px;
+      height: 30px;
+      border-radius: 5px;
+      background: #4FD2C2;
+      color: #fff;
+      font-size: 14px;
+      outline: 0 none; }
+      .main-content .search-box form button i {
+        padding-right: 5px; }
+      .main-content .search-box form button:hover {
+        background: #47BDE3; }
+  .main-content .search-info {
+    width: 100%;
+    padding: 20px 0; }
+    .main-content .search-info .info-txt {
+      width: 50%;
+      font: 400 16px/50px "Microsoft Yahei";
+      color: #333; }
+      .main-content .search-info .info-txt span {
+        font-size: 22px;
+        color: #ff4717; }
+    .main-content .search-info .operation {
+      width: 50%;
+      line-height: 50px;
+      text-align: right; }
+      .main-content .search-info .operation a {
+        display: inline-block;
+        width: 85px;
+        height: 30px;
+        border-radius: 5px;
+        background: #4FD2C2;
+        color: #fff;
+        font-size: 14px;
+        outline: 0 none;
+        text-align: center;
+        line-height: 30px; }
+        .main-content .search-info .operation a i {
+          padding-right: 5px; }
+      .main-content .search-info .operation .export {
+        background: #47BDE3; }
+  .main-content .table-box {
+    width: 100%;
+    /*table*/
+    /*page*/ }
+    .main-content .table-box table {
+      min-width: 100%;
+      border-collapse: collapse; }
+      .main-content .table-box table th:first-child {
+        width: 40px; }
+      .main-content .table-box table td, .main-content .table-box table th {
+        border: 1px solid #BCDFDA; }
+      .main-content .table-box table th {
+        max-width: 150px;
+        font: 400 12px/40px "Microsoft Yahei";
+        color: #fff;
+        background: #4FD2C2; }
+        .main-content .table-box table th input[type="checkbox"] {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          border-radius: 3px;
+          position: relative;
+          top: 5px; }
+        .main-content .table-box table th .default-show {
+          width: 100%;
+          height: 40px; }
+          .main-content .table-box table th .default-show i {
+            padding-right: 5px; }
+        .main-content .table-box table th .active-show {
+          display: none;
+          width: 100%;
+          height: 40px; }
+          .main-content .table-box table th .active-show .form-control {
+            display: inline-block !important;
+            margin: 5px;
+            height: 28px;
+            border-radius: 3px;
+            color: #4fd2c2;
+            background: #fff; }
+            .main-content .table-box table th .active-show .form-control input {
+              width: 80px;
+              height: 28px;
+              outline: none;
+              float: left;
+              padding: 0 5px;
+              line-height: 18px;
+              text-align: center;
+              color: #4fd2c2;
+              background: transparent; }
+            .main-content .table-box table th .active-show .form-control button {
+              float: left;
+              outline: none;
+              height: 28px;
+              padding: 0 5px;
+              line-height: 18px;
+              background: transparent; }
+              .main-content .table-box table th .active-show .form-control button i {
+                line-height: 18px;
+                font-size: 18px; }
+        .main-content .table-box table th select {
+          height: 40px;
+          background: #4FD2C2;
+          color: #fff;
+          outline: none;
+          text-align: center; }
+          .main-content .table-box table th select option {
+            text-align: center; }
+        .main-content .table-box table th .select {
+          width: 100%;
+          height: 40px;
+          position: relative; }
+          .main-content .table-box table th .select .result {
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+            cursor: pointer; }
+          .main-content .table-box table th .select .select-list {
+            display: none;
+            position: absolute;
+            top: 42px;
+            left: 1%;
+            width: 98%;
+            height: auto;
+            border: 1px solid #DBDAD9;
+            background: #fff; }
+            .main-content .table-box table th .select .select-list ul {
+              width: 100%; }
+              .main-content .table-box table th .select .select-list ul li {
+                width: 100%;
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+                height: 30px;
+                line-height: 30px;
+                cursor: pointer; }
+                .main-content .table-box table th .select .select-list ul li:hover {
+                  background: #EEEEEE; }
+      .main-content .table-box table td {
+        text-align: center;
+        font: 400 14px/40px "Microsoft Yahei"; }
+        .main-content .table-box table td input[type="checkbox"] {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          border-radius: 3px;
+          position: relative;
+          top: 5px; }
+        .main-content .table-box table td span.iconfont {
+          font-size: 20px; }
+      .main-content .table-box table tbody tr:hover {
+        background: #F4FAEE !important; }
+      .main-content .table-box table tbody tr:nth-child(even) {
+        background: #EEFAF8; }
+    .main-content .table-box .page-cake {
+      width: 100%;
+      height: 50px;
+      margin: 20px 0;
+      text-align: right;
+      font: 400 14px/50px "Microsoft Yahei";
+      color: #333; }
+      .main-content .table-box .page-cake span {
+        padding: 0 10px;
+        color: #333; }
+      .main-content .table-box .page-cake b {
+        font-weight: 400; }
+      .main-content .table-box .page-cake a i {
+        font-weight: bold;
+        color: #ccc; }
+      .main-content .table-box .page-cake input {
+        outline: none;
+        width: 40px;
+        height: 30px;
+        border: 1px solid #DBDAD9;
+        text-align: center;
+        line-height: 28px;
+        border-radius: 2px; }
+      .main-content .table-box .page-cake button {
+        display: inline-block;
+        outline: none;
+        width: 45px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 3px;
+        color: #fff;
+        background: #4FD2C2; }
+        .main-content .table-box .page-cake button:hover {
+          background: #47BDE3; }
+
+#myModal .modal-dialog, #myModal1 .modal-dialog {
+  width: 635px;
+  margin: 200px auto 0; }
+  #myModal .modal-dialog .modal-content, #myModal1 .modal-dialog .modal-content {
+    border-radius: 6px; }
+#myModal .modal-header, #myModal1 .modal-header {
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #D2D2D2;
+  background: #F3F3F3;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  border-radius: 6px 6px 0 0; }
+  #myModal .modal-header h4, #myModal1 .modal-header h4 {
+    width: 100%;
+    height: 100%;
+    font: 400 24px/55px "Microsoft Yahei";
+    color: #666; }
+  #myModal .modal-header a, #myModal1 .modal-header a {
+    position: absolute;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    right: 8px;
+    top: 8px; }
+    #myModal .modal-header a i, #myModal1 .modal-header a i {
+      font-size: 25px; }
+#myModal .modal-body, #myModal1 .modal-body {
+  text-align: center; }
+  #myModal .modal-body img, #myModal1 .modal-body img {
+    margin: 40px 0; }
+  #myModal .modal-body p, #myModal1 .modal-body p {
+    font: 400 16px/30px "Microsoft Yahei";
+    color: #333; }
+  #myModal .modal-body button, #myModal1 .modal-body button {
+    width: 185px;
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 55px;
+    font-size: 18px;
+    margin: 50px 0; }
+
+.on-line {
+  color: #4CEA1C; }
+
+#guanli .info-txt {
+  width: 100%;
+  padding-left: 20px;
+  background: #FFFBEF;
+  margin-bottom: 20px; }
+#guanli .operation1 {
+  width: 50%;
+  line-height: 50px; }
+  #guanli .operation1 a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #59D4C5;
+    color: #59D4C5;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 3px; }
+    #guanli .operation1 a:hover {
+      color: #fff;
+      background: #59D4C5; }
+
+.check-box {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  background: url("../images/check_box.png") no-repeat center; }
+
+.check-box.checked {
+  background: url("../images/check_box_hover.png") no-repeat center; }
+
+#myModalIn .modal-dialog {
+  width: 620px;
+  height: 385px;
+  margin: 200px auto; }
+  #myModalIn .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalIn .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 24px/50px "Microsoft Yahei";
+      color: #666; }
+    #myModalIn .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 8px;
+      top: 8px; }
+      #myModalIn .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalIn .modal-dialog .modal-body {
+    padding: 30px 35px; }
+    #myModalIn .modal-dialog .modal-body .tip-info {
+      font: 400 14px/30px "Microsoft Yahei";
+      color: #333; }
+      #myModalIn .modal-dialog .modal-body .tip-info a {
+        color: #05bd8c;
+        text-decoration: underline;
+        padding: 0 10px; }
+    #myModalIn .modal-dialog .modal-body .operate {
+      padding: 25px 0;
+      width: 100%; }
+      #myModalIn .modal-dialog .modal-body .operate label {
+        font: 400 14px/30px "Microsoft Yahei";
+        color: #333;
+        display: block;
+        float: left; }
+      #myModalIn .modal-dialog .modal-body .operate div.choose-result {
+        width: 264px;
+        height: 30px;
+        border: 1px solid #ccc;
+        display: block;
+        float: left;
+        overflow: hidden;
+        padding: 0 10px; }
+      #myModalIn .modal-dialog .modal-body .operate button {
+        display: inline-block;
+        float: left;
+        width: 55px;
+        height: 30px;
+        border: 1px solid #4fd2c2;
+        border-radius: 3px;
+        color: #4fd2c2;
+        background: #fff;
+        margin-left: 10px;
+        outline: none; }
+        #myModalIn .modal-dialog .modal-body .operate button:hover {
+          background: #4fd2c2;
+          color: #fff; }
+    #myModalIn .modal-dialog .modal-body .upload-result {
+      width: 100%; }
+      #myModalIn .modal-dialog .modal-body .upload-result .same-result i {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: left; }
+      #myModalIn .modal-dialog .modal-body .upload-result .same-result i.excel {
+        background: url("../images/excell.png") no-repeat center center; }
+      #myModalIn .modal-dialog .modal-body .upload-result .same-result span {
+        display: block;
+        height: 30px;
+        font: 400 14px/30px "Microsoft Yahei";
+        color: #05bd8c;
+        float: left;
+        text-decoration: underline; }
+      #myModalIn .modal-dialog .modal-body .upload-result .same-result .delete {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        background: url("../images/del.png") no-repeat center; }
+  #myModalIn .modal-dialog button.btn-default {
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+    outline: none; }
+
+#myModalOut .modal-dialog {
+  width: 310px;
+  height: 250px;
+  margin: 200px auto; }
+  #myModalOut .modal-dialog .modal-header {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalOut .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/35px "Microsoft Yahei";
+      color: #666; }
+    #myModalOut .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 2px;
+      top: 2px; }
+      #myModalOut .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalOut .modal-dialog .modal-body .tip-info {
+    text-align: center;
+    font: 400 14px/30px "Microsoft Yahei";
+    color: #333; }
+  #myModalOut .modal-dialog .modal-body .gray {
+    color: #666 !important; }
+  #myModalOut .modal-dialog button.btn-default {
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto; }
+
+#myModalSet .modal-dialog {
+  width: 310px;
+  height: 250px;
+  margin: 200px auto; }
+  #myModalSet .modal-dialog .modal-header {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalSet .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/35px "Microsoft Yahei";
+      color: #666; }
+    #myModalSet .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 2px;
+      top: 2px; }
+      #myModalSet .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalSet .modal-dialog .modal-body .tip-info {
+    text-align: center;
+    font: 400 14px/30px "Microsoft Yahei";
+    color: #333;
+    margin: 10px 0; }
+  #myModalSet .modal-dialog .modal-body input {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    outline: none;
+    margin: 0 10px; }
+  #myModalSet .modal-dialog .modal-body .gray {
+    color: #666 !important; }
+  #myModalSet .modal-dialog button.btn-default {
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    display: block;
+    margin: 30px auto 20px; }
+
+#myModalNew .modal-dialog {
+  width: 800px;
+  margin: 100px auto; }
+  #myModalNew .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalNew .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 18px/50px "Microsoft Yahei";
+      color: #666; }
+    #myModalNew .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 5px;
+      top: 5px; }
+      #myModalNew .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalNew .modal-dialog .modal-body form {
+    width: 100%;
+    padding-left: 20px; }
+    #myModalNew .modal-dialog .modal-body form .form-control {
+      width: 370px;
+      height: 30px;
+      margin-bottom: 30px; }
+      #myModalNew .modal-dialog .modal-body form .form-control label {
+        float: left;
+        display: block;
+        width: 100px;
+        font: 400 14px/30px "Microsoft Yahei";
+        color: #333; }
+      #myModalNew .modal-dialog .modal-body form .form-control input, #myModalNew .modal-dialog .modal-body form .form-control .select {
+        display: block;
+        float: left;
+        width: 200px;
+        height: 28px;
+        border: 1px solid #CBCBCB;
+        padding: 0 5px;
+        color: #333;
+        font-size: 14px;
+        line-height: 28px;
+        outline: none; }
+      #myModalNew .modal-dialog .modal-body form .form-control .select {
+        position: relative; }
+        #myModalNew .modal-dialog .modal-body form .form-control .select .result .icon-jiantou {
+          float: right; }
+        #myModalNew .modal-dialog .modal-body form .form-control .select .select-list {
+          position: absolute;
+          display: none;
+          left: -1px;
+          top: 30px;
+          background: #fff;
+          width: 200px;
+          border: 1px solid #CBCBCB;
+          border-radius: 3px; }
+          #myModalNew .modal-dialog .modal-body form .form-control .select .select-list li {
+            padding: 0 5px;
+            cursor: pointer; }
+            #myModalNew .modal-dialog .modal-body form .form-control .select .select-list li:hover {
+              background: #F0F0F0; }
+    #myModalNew .modal-dialog .modal-body form button {
+      width: 138px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      background: #4FD2C2;
+      display: block;
+      margin: 0 auto 30px; }
+    #myModalNew .modal-dialog .modal-body form .set-btn {
+      margin-left: 15px;
+      width: 35px;
+      height: 28px;
+      background: url("../images/set_bg.png") no-repeat;
+      background-size: 100% 100%;
+      position: relative; }
+      #myModalNew .modal-dialog .modal-body form .set-btn a.set-a {
+        width: 100%;
+        height: 100%;
+        display: block; }
+      #myModalNew .modal-dialog .modal-body form .set-btn .add-select {
+        position: absolute;
+        display: none;
+        width: 300px;
+        left: 0;
+        top: 28px;
+        border: 1px solid #ECECEC;
+        background: #fff;
+        border-radius: 3px; }
+        #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-header {
+          width: 100%;
+          height: 35px;
+          border-bottom: 1px solid #D2D2D2;
+          position: relative;
+          line-height: 35px;
+          color: #999999;
+          padding-left: 15px; }
+          #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-header .close {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 20px;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            right: 10px; }
+            #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-header .close i {
+              font-size: 25px;
+              color: #B6B6B6; }
+        #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content ul {
+          width: 100%;
+          padding-left: 15px; }
+          #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content ul li {
+            width: 100%;
+            font: 400 12px/24px "Microsoft Yahei";
+            color: #333; }
+        #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control {
+          margin: 5px 0;
+          width: 100%;
+          padding-left: 15px; }
+          #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control input {
+            width: 190px;
+            height: 28px;
+            border: 1px solid #CBCBCB;
+            padding: 0 5px;
+            color: #333;
+            font-size: 14px;
+            line-height: 28px;
+            outline: none;
+            float: left; }
+          #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            float: left; }
+            #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn i {
+              font-style: normal;
+              font-size: 28px;
+              line-height: 30px;
+              color: #28BB50; }
+          #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn {
+            float: left;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px; }
+            #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn i {
+              font-size: 20px;
+              line-height: 30px;
+              color: #FF9A23; }
+        #myModalNew .modal-dialog .modal-body form .set-btn .add-select .add-content .new-add-btn {
+          margin-top: 10px;
+          width: 88px;
+          height: 30px;
+          border-radius: 3px;
+          background: #4ED2C4;
+          color: #fff; }
+
+.order-detail .order-title {
+  width: 100%;
+  background: #4FD2C2;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  padding-left: 30px; }
+.order-detail .order-info {
+  background: #FFFBEF;
+  height: 170px;
+  padding: 25px 30px; }
+  .order-detail .order-info ul {
+    width: 100%; }
+    .order-detail .order-info ul li {
+      float: left;
+      width: 33%;
+      height: 40px;
+      font: 400 14px/40px "Microsoft Yahei";
+      color: #333; }
+      .order-detail .order-info ul li span.red {
+        color: #ff4717;
+        font-weight: bold;
+        font-size: 18px; }
+      .order-detail .order-info ul li span.status1 {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        background: url("../images/status.png") no-repeat left center; }
+      .order-detail .order-info ul li span.status2 {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        background: url("../images/status2.png") no-repeat left center; }
+      .order-detail .order-info ul li span.status3 {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        background: url("../images/status3.png") no-repeat left center; }
+.order-detail .goods-info {
+  background: #FFEAE9;
+  height: 170px;
+  padding: 25px 0; }
+  .order-detail .goods-info ul {
+    width: 50%;
+    float: left; }
+    .order-detail .goods-info ul li {
+      padding-left: 30px;
+      float: left;
+      width: 50%;
+      height: 40px;
+      font: 400 14px/40px "Microsoft Yahei";
+      color: #333; }
+      .order-detail .goods-info ul li span.red {
+        color: #ff4717;
+        font-weight: bold;
+        font-size: 18px; }
+      .order-detail .goods-info ul li span.black {
+        color: #413f40;
+        font-weight: bold;
+        font-size: 18px; }
+      .order-detail .goods-info ul li span.pay {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        background: url("../images/pay.png") no-repeat left center; }
+  .order-detail .goods-info .first-ul {
+    border-right: 1px dashed #F39490; }
+.order-detail .guest-info {
+  background: #F0F9FF;
+  padding: 25px 0; }
+  .order-detail .guest-info ul {
+    width: 50%;
+    float: left; }
+    .order-detail .guest-info ul li.ul-title {
+      width: 100%;
+      font-weight: bold;
+      font-size: 16px; }
+    .order-detail .guest-info ul li {
+      padding-left: 30px;
+      float: left;
+      width: 50%;
+      height: 40px;
+      font: 400 14px/40px "Microsoft Yahei";
+      color: #333; }
+      .order-detail .guest-info ul li span.red {
+        color: #ff4717;
+        font-weight: bold; }
+      .order-detail .guest-info ul li span.pay {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+        background: url("../images/pay.png") no-repeat left center; }
+  .order-detail .guest-info .first-ul {
+    border-right: 1px dashed #70C2F8; }
+    .order-detail .guest-info .first-ul .icon {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 5px;
+      background: url("../images/jijian.png") no-repeat left center; }
+  .order-detail .guest-info .last-ul .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+    background: url("../images/shoujian.png") no-repeat left center; }
+
+#myModalEditor .modal-dialog {
+  width: 530px;
+  margin: 200px auto; }
+  #myModalEditor .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalEditor .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/50px "Microsoft Yahei";
+      color: #666; }
+    #myModalEditor .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 10px;
+      top: 10px; }
+      #myModalEditor .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalEditor .modal-dialog .modal-body .tip-info {
+    font: 400 14px/30px "Microsoft Yahei";
+    color: #333;
+    margin: 10px 0;
+    padding: 0 45px; }
+  #myModalEditor .modal-dialog .modal-body input {
+    width: 320px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    outline: none;
+    margin: 0 10px; }
+  #myModalEditor .modal-dialog .modal-body .gray {
+    color: #666 !important; }
+  #myModalEditor .modal-dialog button.btn-default {
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    display: block;
+    margin: 30px auto 20px; }
+
+.operation .red {
+  color: #ff4717;
+  font-size: 14px; }
+
+#myModalAddPerson .modal-dialog {
+  width: 680px;
+  margin: 200px auto; }
+  #myModalAddPerson .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalAddPerson .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/50px "Microsoft Yahei";
+      color: #666; }
+    #myModalAddPerson .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 10px;
+      top: 10px; }
+      #myModalAddPerson .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalAddPerson .modal-dialog .modal-body table {
+    width: 640px;
+    margin: 30px auto; }
+    #myModalAddPerson .modal-dialog .modal-body table td, #myModalAddPerson .modal-dialog .modal-body table th {
+      border: 1px solid #CCCCCC;
+      height: 35px;
+      color: #333;
+      text-align: center;
+      line-height: 35px;
+      font-size: 14px; }
+    #myModalAddPerson .modal-dialog .modal-body table th {
+      background: #F5F4F3;
+      font-weight: 400; }
+    #myModalAddPerson .modal-dialog .modal-body table td input {
+      width: 100%;
+      height: 100%;
+      border: 0 none;
+      outline: 0 none;
+      text-align: center; }
+    #myModalAddPerson .modal-dialog .modal-body table .select {
+      width: 100%;
+      height: 40px;
+      position: relative; }
+      #myModalAddPerson .modal-dialog .modal-body table .select .result {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        cursor: pointer;
+        z-index: 99; }
+      #myModalAddPerson .modal-dialog .modal-body table .select .select-list {
+        z-index: 9999;
+        display: none;
+        position: absolute;
+        top: 42px;
+        left: 1%;
+        width: 98%;
+        height: auto;
+        border: 1px solid #DBDAD9;
+        background: #fff; }
+        #myModalAddPerson .modal-dialog .modal-body table .select .select-list ul {
+          width: 100%; }
+          #myModalAddPerson .modal-dialog .modal-body table .select .select-list ul li {
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer; }
+            #myModalAddPerson .modal-dialog .modal-body table .select .select-list ul li:hover {
+              background: #EEEEEE; }
+    #myModalAddPerson .modal-dialog .modal-body table input::-webkit-input-placeholder {
+      color: #999; }
+    #myModalAddPerson .modal-dialog .modal-body table input:-moz-placeholder {
+      color: #999; }
+  #myModalAddPerson .modal-dialog .add-tr-btn {
+    width: 640px;
+    margin: 15px auto; }
+    #myModalAddPerson .modal-dialog .add-tr-btn button {
+      border: 1px solid #4FD2C2;
+      border-radius: 5px;
+      text-align: center;
+      background: #fff;
+      outline: none;
+      width: 95px;
+      height: 25px;
+      line-height: 23px;
+      font-size: 14px;
+      color: #4FD2C2; }
+  #myModalAddPerson .modal-dialog .add-info {
+    width: 640px;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999; }
+  #myModalAddPerson .modal-dialog button.btn-default {
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    display: block;
+    margin: 30px auto 20px; }
+
+#myModalSet1 .modal-dialog {
+  width: 380px;
+  margin: 200px auto; }
+  #myModalSet1 .modal-dialog .modal-header {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalSet1 .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/35px "Microsoft Yahei";
+      color: #666; }
+    #myModalSet1 .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 2px;
+      top: 2px; }
+      #myModalSet1 .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalSet1 .modal-dialog .modal-body .select {
+    display: inline-block;
+    width: 230px;
+    height: 34px;
+    border: 1px solid #CBCBCB;
+    position: relative; }
+    #myModalSet1 .modal-dialog .modal-body .select .result {
+      width: 230px;
+      height: 34px;
+      font-size: 14px;
+      cursor: pointer;
+      z-index: 99;
+      text-align: left; }
+      #myModalSet1 .modal-dialog .modal-body .select .result span {
+        padding-left: 20px; }
+      #myModalSet1 .modal-dialog .modal-body .select .result i {
+        float: right;
+        margin-right: 10px; }
+    #myModalSet1 .modal-dialog .modal-body .select .select-list {
+      z-index: 9999;
+      display: none;
+      position: absolute;
+      top: 32px;
+      left: 0;
+      width: 100%;
+      height: auto;
+      border: 1px solid #DBDAD9;
+      background: #fff; }
+      #myModalSet1 .modal-dialog .modal-body .select .select-list ul {
+        width: 100%; }
+        #myModalSet1 .modal-dialog .modal-body .select .select-list ul li {
+          padding-left: 20px;
+          width: 100%;
+          text-align: left;
+          font-size: 14px;
+          color: #666;
+          height: 30px;
+          line-height: 30px;
+          cursor: pointer; }
+          #myModalSet1 .modal-dialog .modal-body .select .select-list ul li:hover {
+            background: #EEEEEE; }
+  #myModalSet1 .modal-dialog .modal-body .tip-info {
+    text-align: center;
+    font: 400 14px/30px "Microsoft Yahei";
+    color: #333;
+    margin: 10px 0; }
+  #myModalSet1 .modal-dialog .modal-body input {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    outline: none;
+    margin: 0 10px; }
+  #myModalSet1 .modal-dialog .modal-body .gray {
+    color: #666 !important; }
+  #myModalSet1 .modal-dialog button.btn-default {
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4FD2C2;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    display: block;
+    margin: 30px auto 20px; }
+
+.myModalDetail .modal-dialog {
+  width: 860px;
+  margin: 50px auto; }
+  .myModalDetail .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    .myModalDetail .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 18px/50px "Microsoft Yahei";
+      color: #666; }
+    .myModalDetail .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 5px;
+      top: 5px; }
+      .myModalDetail .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  .myModalDetail .modal-dialog .modal-body form {
+    width: 100%;
+    padding-left: 20px; }
+    .myModalDetail .modal-dialog .modal-body form .form-control {
+      width: 370px;
+      height: 30px;
+      margin-bottom: 30px; }
+      .myModalDetail .modal-dialog .modal-body form .form-control label {
+        float: left;
+        display: block;
+        width: 100px;
+        font: 400 14px/30px "Microsoft Yahei";
+        color: #333; }
+      .myModalDetail .modal-dialog .modal-body form .form-control span {
+        color: #333;
+        font-size: 14px;
+        line-height: 28px; }
+      .myModalDetail .modal-dialog .modal-body form .form-control input, .myModalDetail .modal-dialog .modal-body form .form-control .select {
+        display: block;
+        float: left;
+        width: 140px;
+        height: 28px;
+        border: 1px solid #CBCBCB;
+        padding: 0 5px;
+        color: #333;
+        font-size: 14px;
+        line-height: 28px;
+        outline: none; }
+      .myModalDetail .modal-dialog .modal-body form .form-control .select {
+        position: relative; }
+        .myModalDetail .modal-dialog .modal-body form .form-control .select .result .icon-jiantou {
+          float: right; }
+        .myModalDetail .modal-dialog .modal-body form .form-control .select .select-list {
+          position: absolute;
+          display: none;
+          left: -1px;
+          top: 30px;
+          background: #fff;
+          width: 200px;
+          border: 1px solid #CBCBCB;
+          border-radius: 3px; }
+          .myModalDetail .modal-dialog .modal-body form .form-control .select .select-list li {
+            padding: 0 5px;
+            cursor: pointer; }
+            .myModalDetail .modal-dialog .modal-body form .form-control .select .select-list li:hover {
+              background: #F0F0F0; }
+    .myModalDetail .modal-dialog .modal-body form .first-floor {
+      border-bottom: 1px solid #D2D2D2;
+      margin-bottom: 30px; }
+      .myModalDetail .modal-dialog .modal-body form .first-floor .form-control {
+        width: 269px; }
+    .myModalDetail .modal-dialog .modal-body form .second-floor {
+      border-bottom: 1px solid #D2D2D2;
+      margin-bottom: 30px; }
+      .myModalDetail .modal-dialog .modal-body form .second-floor .form-control {
+        width: 400px;
+        padding-left: 65px; }
+        .myModalDetail .modal-dialog .modal-body form .second-floor .form-control .num-input {
+          width: 80px;
+          margin-right: 10px;
+          text-align: center; }
+    .myModalDetail .modal-dialog .modal-body form .third-floor {
+      border-bottom: 1px solid #D2D2D2;
+      margin-bottom: 30px; }
+      .myModalDetail .modal-dialog .modal-body form .third-floor .form-control {
+        width: 400px;
+        padding-left: 65px; }
+        .myModalDetail .modal-dialog .modal-body form .third-floor .form-control .num-input {
+          width: 80px;
+          margin-right: 10px;
+          text-align: center; }
+      .myModalDetail .modal-dialog .modal-body form .third-floor button {
+        width: 60px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 28px;
+        float: left;
+        margin-left: 10px; }
+    .myModalDetail .modal-dialog .modal-body form .detail-info {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 20px; }
+    .myModalDetail .modal-dialog .modal-body form button {
+      width: 138px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      background: #4FD2C2;
+      display: block;
+      margin: 0 auto 30px; }
+    .myModalDetail .modal-dialog .modal-body form .set-btn {
+      margin-left: 15px;
+      width: 35px;
+      height: 28px;
+      background: url("../images/set_bg.png") no-repeat;
+      background-size: 100% 100%;
+      position: relative; }
+      .myModalDetail .modal-dialog .modal-body form .set-btn a.set-a {
+        width: 100%;
+        height: 100%;
+        display: block; }
+      .myModalDetail .modal-dialog .modal-body form .set-btn .add-select {
+        position: absolute;
+        display: none;
+        width: 300px;
+        left: 0;
+        top: 28px;
+        border: 1px solid #ECECEC;
+        background: #fff;
+        border-radius: 3px; }
+        .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-header {
+          width: 100%;
+          height: 35px;
+          border-bottom: 1px solid #D2D2D2;
+          position: relative;
+          line-height: 35px;
+          color: #999999;
+          padding-left: 15px; }
+          .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-header .close {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 20px;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            right: 10px; }
+            .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-header .close i {
+              font-size: 25px;
+              color: #B6B6B6; }
+        .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content ul {
+          width: 100%;
+          padding-left: 15px; }
+          .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content ul li {
+            width: 100%;
+            font: 400 12px/24px "Microsoft Yahei";
+            color: #333; }
+        .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control {
+          margin: 5px 0;
+          width: 100%;
+          padding-left: 15px; }
+          .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control input {
+            width: 190px;
+            height: 28px;
+            border: 1px solid #CBCBCB;
+            padding: 0 5px;
+            color: #333;
+            font-size: 14px;
+            line-height: 28px;
+            outline: none;
+            float: left; }
+          .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            float: left; }
+            .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn i {
+              font-style: normal;
+              font-size: 28px;
+              line-height: 30px;
+              color: #28BB50; }
+          .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn {
+            float: left;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px; }
+            .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn i {
+              font-size: 20px;
+              line-height: 30px;
+              color: #FF9A23; }
+        .myModalDetail .modal-dialog .modal-body form .set-btn .add-select .add-content .new-add-btn {
+          margin-top: 10px;
+          width: 88px;
+          height: 30px;
+          border-radius: 3px;
+          background: #4ED2C4;
+          color: #fff; }
+
+.waiter .check-box {
+  background-size: 75% 75%; }
+.waiter .modal-dialog {
+  width: 770px;
+  margin: 50px auto; }
+  .waiter .modal-dialog .modal-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    .waiter .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 18px/50px "Microsoft Yahei";
+      color: #666; }
+    .waiter .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 5px;
+      top: 5px; }
+      .waiter .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  .waiter .modal-dialog .modal-body {
+    padding: 0 30px; }
+    .waiter .modal-dialog .modal-body form {
+      padding-top: 20px;
+      width: 100%; }
+      .waiter .modal-dialog .modal-body form .form-control {
+        width: 350px;
+        height: 30px;
+        margin-bottom: 20px; }
+        .waiter .modal-dialog .modal-body form .form-control label {
+          float: left;
+          display: block;
+          width: 100px;
+          font: 400 14px/30px "Microsoft Yahei";
+          color: #333; }
+        .waiter .modal-dialog .modal-body form .form-control span {
+          color: #333;
+          font-size: 14px;
+          line-height: 28px; }
+        .waiter .modal-dialog .modal-body form .form-control input, .waiter .modal-dialog .modal-body form .form-control .select {
+          cursor: pointer;
+          display: block;
+          float: left;
+          width: 140px;
+          height: 28px;
+          border: 1px solid #CBCBCB;
+          padding: 0 5px;
+          color: #333;
+          font-size: 14px;
+          line-height: 28px;
+          outline: none; }
+        .waiter .modal-dialog .modal-body form .form-control .select {
+          cursor: pointer;
+          position: relative; }
+          .waiter .modal-dialog .modal-body form .form-control .select .result .icon-jiantou {
+            float: right; }
+          .waiter .modal-dialog .modal-body form .form-control .select .select-list {
+            cursor: pointer;
+            position: absolute;
+            display: none;
+            left: -1px;
+            top: 30px;
+            background: #fff;
+            width: 200px;
+            border: 1px solid #CBCBCB;
+            border-radius: 3px; }
+            .waiter .modal-dialog .modal-body form .form-control .select .select-list li {
+              padding: 0 5px;
+              cursor: pointer; }
+              .waiter .modal-dialog .modal-body form .form-control .select .select-list li:hover {
+                background: #F0F0F0; }
+      .waiter .modal-dialog .modal-body form .select {
+        cursor: pointer;
+        position: relative; }
+        .waiter .modal-dialog .modal-body form .select .result {
+          z-index: 99; }
+        .waiter .modal-dialog .modal-body form .select .select-list {
+          cursor: pointer;
+          position: absolute;
+          display: none;
+          left: -1px;
+          top: 30px;
+          background: #fff;
+          width: 100%;
+          border: 1px solid #CBCBCB;
+          border-radius: 3px;
+          z-index: 999; }
+          .waiter .modal-dialog .modal-body form .select .select-list li {
+            padding: 0 5px;
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer; }
+            .waiter .modal-dialog .modal-body form .select .select-list li:hover {
+              background: #F0F0F0; }
+      .waiter .modal-dialog .modal-body form .detail-info {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #999;
+        margin-bottom: 20px; }
+      .waiter .modal-dialog .modal-body form button {
+        width: 138px;
+        height: 40px;
+        border-radius: 5px;
+        color: #fff;
+        background: #4FD2C2;
+        display: block;
+        margin: 0 auto 30px; }
+      .waiter .modal-dialog .modal-body form .set-btn {
+        margin-left: 15px;
+        width: 35px;
+        height: 28px;
+        background: url("../images/set_bg.png") no-repeat;
+        background-size: 100% 100%;
+        position: relative; }
+        .waiter .modal-dialog .modal-body form .set-btn a.set-a {
+          width: 100%;
+          height: 100%;
+          display: block; }
+        .waiter .modal-dialog .modal-body form .set-btn .add-select {
+          cursor: pointer;
+          position: absolute;
+          display: none;
+          width: 300px;
+          left: 0;
+          top: 28px;
+          border: 1px solid #ECECEC;
+          background: #fff;
+          border-radius: 3px; }
+          .waiter .modal-dialog .modal-body form .set-btn .add-select .add-header {
+            width: 100%;
+            height: 35px;
+            border-bottom: 1px solid #D2D2D2;
+            position: relative;
+            line-height: 35px;
+            color: #999999;
+            padding-left: 15px; }
+            .waiter .modal-dialog .modal-body form .set-btn .add-select .add-header .close {
+              width: 35px;
+              height: 35px;
+              line-height: 35px;
+              font-size: 20px;
+              position: absolute;
+              text-align: center;
+              top: 0;
+              right: 10px; }
+              .waiter .modal-dialog .modal-body form .set-btn .add-select .add-header .close i {
+                font-size: 25px;
+                color: #B6B6B6; }
+          .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content ul {
+            width: 100%;
+            padding-left: 15px; }
+            .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content ul li {
+              width: 100%;
+              font: 400 12px/24px "Microsoft Yahei";
+              color: #333; }
+          .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control {
+            margin: 5px 0;
+            width: 100%;
+            padding-left: 15px; }
+            .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control input {
+              width: 190px;
+              height: 28px;
+              border: 1px solid #CBCBCB;
+              padding: 0 5px;
+              color: #333;
+              font-size: 14px;
+              line-height: 28px;
+              outline: none;
+              float: left; }
+            .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              margin-left: 10px;
+              float: left; }
+              .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .add-btn i {
+                font-style: normal;
+                font-size: 28px;
+                line-height: 30px;
+                color: #28BB50; }
+            .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn {
+              float: left;
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              margin-left: 10px; }
+              .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .add-control .del-btn i {
+                font-size: 20px;
+                line-height: 30px;
+                color: #FF9A23; }
+          .waiter .modal-dialog .modal-body form .set-btn .add-select .add-content .new-add-btn {
+            margin-top: 10px;
+            width: 88px;
+            height: 30px;
+            border-radius: 3px;
+            background: #4ED2C4;
+            color: #fff; }
+      .waiter .modal-dialog .modal-body form .table-box {
+        width: 100%;
+        border-top: 1px solid #D2D2D2;
+        padding: 20px 0; }
+        .waiter .modal-dialog .modal-body form .table-box .table-info {
+          font-size: 16px;
+          color: #333;
+          font-weight: 600; }
+        .waiter .modal-dialog .modal-body form .table-box .table-operate {
+          width: 100%;
+          padding: 20px 0 0; }
+          .waiter .modal-dialog .modal-body form .table-box .table-operate .left {
+            width: 50%;
+            font: 400 14px/30px "Microsoft Yahei";
+            color: #333; }
+            .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select {
+              cursor: pointer;
+              margin-left: 10px;
+              width: 145px;
+              height: 30px;
+              border: 1px solid #CBCBCB;
+              text-align: center; }
+              .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select .result {
+                text-align: left; }
+                .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select .result span {
+                  padding-left: 15px; }
+                .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select .result i {
+                  float: right;
+                  margin-right: 15px; }
+              .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select .select-list {
+                cursor: pointer;
+                display: none;
+                text-align: left; }
+                .waiter .modal-dialog .modal-body form .table-box .table-operate .left .select .select-list li {
+                  padding-left: 15px; }
+            .waiter .modal-dialog .modal-body form .table-box .table-operate .left button {
+              width: 58px;
+              height: 30px;
+              margin-left: 10px;
+              border-radius: 3px; }
+          .waiter .modal-dialog .modal-body form .table-box .table-operate .right {
+            width: 50%; }
+            .waiter .modal-dialog .modal-body form .table-box .table-operate .right a {
+              width: 110px;
+              height: 30px;
+              border: 1px solid #4FD2C2;
+              color: #4FD2C2;
+              text-align: center;
+              line-height: 28px;
+              font-size: 14px;
+              display: block;
+              float: right;
+              border-radius: 3px; }
+              .waiter .modal-dialog .modal-body form .table-box .table-operate .right a:hover {
+                background: #4FD2C2;
+                color: #fff; }
+        .waiter .modal-dialog .modal-body form .table-box .table-content {
+          width: 100%; }
+          .waiter .modal-dialog .modal-body form .table-box .table-content table {
+            width: 100%; }
+            .waiter .modal-dialog .modal-body form .table-box .table-content table th, .waiter .modal-dialog .modal-body form .table-box .table-content table td {
+              border: 1px solid #ccc;
+              font-weight: 400;
+              color: #333;
+              height: 35px;
+              font-size: 14px;
+              text-align: center; }
+            .waiter .modal-dialog .modal-body form .table-box .table-content table th {
+              background: #F5F4F3; }
+
+#myModalHistory .modal-dialog {
+  width: 500px;
+  margin: 200px auto; }
+  #myModalHistory .modal-dialog .modal-header {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #D2D2D2;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    border-radius: 6px 6px 0 0; }
+    #myModalHistory .modal-dialog .modal-header h4 {
+      width: 100%;
+      height: 100%;
+      font: 400 16px/35px "Microsoft Yahei";
+      color: #666; }
+    #myModalHistory .modal-dialog .modal-header a {
+      position: absolute;
+      font-size: 25px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: block;
+      right: 2px;
+      top: 2px; }
+      #myModalHistory .modal-dialog .modal-header a i {
+        font-size: 25px; }
+  #myModalHistory .modal-dialog .modal-body .same-history {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #C0C0C0; }
+    #myModalHistory .modal-dialog .modal-body .same-history:last-child {
+      border-bottom: none; }
+    #myModalHistory .modal-dialog .modal-body .same-history span {
+      font: 400 14px/30px "Microsoft Yahei";
+      color: #333; }
+    #myModalHistory .modal-dialog .modal-body .same-history i {
+      display: inline-block;
+      width: 30px;
+      height: 20px;
+      background: url("../images/zhuanhuan.png") no-repeat center bottom; }
+
+.order-detail-page {
+  width: 1200px;
+  margin: 0 auto;
+  float: none !important;
+  display: block !important; }
+  .order-detail-page .main-content-wrap {
+    padding-top: 0; }
+  .order-detail-page .order-detail {
+    padding-top: 0; }
+
+.select-more {
+  cursor: pointer;
+  width: 100%;
+  height: 35px;
+  position: relative; }
+  .select-more .result-more {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    z-index: 1; }
+  .select-more .select-list-more {
+    display: none;
+    position: absolute;
+    width: 100%;
+    min-width: 190px;
+    min-height: 40px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #DBDAD9;
+    top: 40px;
+    left: 0;
+    z-index: 9; }
+    .select-more .select-list-more ul li {
+      text-align: left;
+      min-height: 35px; }
+      .select-more .select-list-more ul li span {
+        float: left;
+        display: inline-block;
+        height: 35px; }
+      .select-more .select-list-more ul li a {
+        float: right; }
+      .select-more .select-list-more ul li i {
+        float: left;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background: url("../images/right_icon.png") no-repeat center; }
+      .select-more .select-list-more ul li .active i {
+        background: url("../images/top_icon.png") no-repeat center; }
+      .select-more .select-list-more ul li .active dd {
+        display: block !important; }
+      .select-more .select-list-more ul li .select {
+        height: 30px !important; }
+      .select-more .select-list-more ul li .select .check-box-small {
+        background: url("../images/small_check_1.png") no-repeat center; }
+    .select-more .select-list-more ul li.total-control {
+      padding-left: 35px; }
+    .select-more .select-list-more ul dl dt {
+      overflow: hidden; }
+      .select-more .select-list-more ul dl dt span {
+        cursor: pointer; }
+    .select-more .select-list-more ul dl dt:hover {
+      background: #F0F0F0; }
+    .select-more .select-list-more ul dl dd {
+      width: 100%;
+      display: none;
+      cursor: pointer;
+      padding-left: 35px;
+      height: 30px;
+      line-height: 30px;
+      overflow: hidden; }
+      .select-more .select-list-more ul dl dd span, .select-more .select-list-more ul dl dd a, .select-more .select-list-more ul dl dd i {
+        height: 30px !important;
+        line-height: 30px; }
+    .select-more .select-list-more ul dl dd:hover {
+      background: #F0F0F0; }
+
+.check-box-small {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../images/small_check_0.png") no-repeat center; }
+
+.checked .check-box-small {
+  background: url("../images/small_check_1.png") no-repeat center !important; }
+
+.to-gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; }
+
+.detail-table-page {
+  position: static;
+  width: 98% !important;
+  margin: 0 auto;
+  background: #fff; }
+
+.detail-table-page .main-content-wrap {
+  padding: 0 !important; }
+
+.detail-table-page .main-content {
+  padding: 0 !important; }
+
+/*# sourceMappingURL=index.css.map */

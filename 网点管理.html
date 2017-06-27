@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="keywords" content="远成快运">
+    <meta name="description" content="远成快运">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <meta name="copyright" content="远成快运">
+    <!--需要加载的css文件-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--结束-->
+    <!--需要加载的js文件-->
+    <!--结束-->
+</head>
+<body class="clearfix">
+
+        <div class="main-content">
+            <div class="search-info clearfix" id="guanli">
+                <div class="info-txt fl">
+                    共有 <span>6666</span> 代收网点， 其中在线共 <span>999</span>
+                </div>
+                <div class="operation1 fl">
+                    <a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModalNew">新建代收网点</a>
+                    <a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModalSet">批量设置提成</a>
+                </div>
+                <div class="operation fl">
+                    <a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModalIn"><i
+                            class="iconfont icon-shujudaoru"></i>导入</a>
+                    <a href="javascript:void(0)" class="export" data-toggle="modal" data-target="#myModalOut"><i
+                            class="iconfont icon-daochu"></i>导出</a>
+                </div>
+            </div>
+            <div class="table-box network-management">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </th>
+                        <th>
+                            序号
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>网点编号
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="网点编号">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>网店名称
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="网店名称">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+
+                            <div class="select">
+                                <div class="result">
+                                    <span>网点类别</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>分公司
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="分公司">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>营业部
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="营业部">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>店小二
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="店小二">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>提成
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="提成">
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+
+                            <div class="select">
+                                <div class="result">
+                                    <span>是否在线</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            全部
+                                        </li>
+                                        <li>
+                                            在线
+                                        </li>
+                                        <li>
+                                            离线
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-123456
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-DS001
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                水厂营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                58827- 沈仲元
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                5%
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                <span class="iconfont icon-shixinxiaoyuandian on-line"></span>在线
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-123456
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-DS001
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                水厂营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                58827- 沈仲元
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                5%
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                <span class="iconfont icon-shixinxiaoyuandian on-line"></span>在线
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-123456
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海01-DS001
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                水厂营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                58827- 沈仲元
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                5%
+                            </a>
+                        </td>
+                        <td>
+                            <a data-toggle="modal" data-target="#myModalDetail">
+                                <span class="iconfont icon-shixinxiaoyuandian "></span>离线
+                            </a>
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="page-cake">
+                    <form action="">
+                        <span>共20条记录  </span>
+                        <span> 当前显示10条</span>
+                        <a href=""><i class="iconfont icon-diyiyebackward"></i></a>
+                        <a href=""><i class="iconfont icon-shangyiyeprevious"></i></a>
+                        <span>第</span><input type="text"><span>页</span>
+                        <button type="submit">确定</button>
+                        <span>共10页</span>
+                        <a href=""><i class="iconfont icon-xiayiye"></i></a>
+                        <a href=""><i class="iconfont icon-diyiyebackward-copy"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<!-- 导入 -->
+<div class="modal fade" id="myModalIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabelIn" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelIn">导入</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <p class="tip-info">
+                    请先下载模板: <a href="">代收网点模板.excle </a> 填写内容后进行上传
+                </p>
+                <p class="tip-info">
+                    注：建议导入内容条数不超过2万条
+                </p>
+                <div class="operate clearfix">
+                    <label for="">上传文件：</label>
+                    <div class="choose-result"></div>
+                    <button class="view-source" type="button">浏览</button>
+                    <button class="upload-btn" type="button">上传</button>
+                    <input type="file" hidden class="hide-file">
+                </div>
+                <div class="upload-result">
+                    <div class="same-result clearfix">
+                        <i class="excel"></i><span>代收网点2016.03数据.excel</span><a class="delete"></a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 导出-->
+<div class="modal fade" id="myModalOut" tabindex="-1" role="dialog" aria-labelledby="myModalLabelOut"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelOut">导出</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <div class="tip-info">
+                    当前共选中 <b>13</b> 条信息
+                </div>
+                <div class="tip-info">
+                    将生成excel表格下载到您的电脑上
+                </div>
+                <div class="tip-info gray">
+                    注：导出信息内容为详情的全部字段
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定导出</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 导入导出成功-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">导入</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <img src="images/success.png" alt="">
+                <p>当前已成功导入信息999条，成功覆盖信息6条</p>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 导入导出失败 -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">导入</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <img src="images/error.png" alt="">
+                <p>当表格内店小二工号不存在，无法导入，请重新上传</p>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 批量设置-->
+<div class="modal fade" id="myModalSet" tabindex="-1" role="dialog" aria-labelledby="myModalLabelSet"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelSet">批量设置</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <div class="tip-info">
+                    当前共选中 <b>5</b>家网点
+                </div>
+                <div class="tip-info">
+                    网点提成 <input type="text"> %
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定导出</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--新建代售网点-->
+<div class="modal fade" id="myModalNew" tabindex="-1" role="dialog" aria-labelledby="myModalLabelNew"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelNew">新建代收网点</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <form action="" class="clearfix">
+                    <div class="form-control fl clearfix">
+                        <label>网点名称：</label>
+                        <input type="text" placeholder="输入网点名称">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>老板名称：</label>
+                        <input type="text" placeholder="老板名称">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>网点类型：</label>
+                        <div class="select">
+                            <div class="result">
+                                <span>网点类别</span> <i class="iconfont icon-jiantou"></i>
+                            </div>
+                            <div class="select-list">
+                                <ul>
+                                    <li>
+                                        快运本部
+                                    </li>
+                                    <li>
+                                        华东分部
+                                    </li>
+                                    <li>
+                                        华北分部
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="set-btn fl">
+                            <a class="set-a"></a>
+                            <div class="add-select">
+                                <div class="add-header">
+                                    修改类别
+                                    <a class="close"><i class="iconfont icon-iconfontcha"></i></a>
+                                </div>
+                                <div class="add-content">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                    <div class="add-form">
+                                        <div class="add-control clearfix">
+                                            <input type="text" placeholder="新增">
+                                            <a class="add-btn"><i>+</i></a>
+                                        </div>
+                                    </div>
+                                    <button class="new-add-btn">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>网点编号：</label>
+                        <input type="text" placeholder="网点编号">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>所属分公司：</label>
+                        <input type="text" placeholder="所属分公司">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>分公司名称：</label>
+                        <input type="text" placeholder="分公司名称">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>所属营业部：</label>
+                        <input type="text" placeholder="所属营业部">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>营业部名称：</label>
+                        <input type="text" placeholder="营业部名称">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>所属店小二：</label>
+                        <div class="select">
+                            <div class="result">
+                                <span>网点类别</span> <i class="iconfont icon-jiantou"></i>
+                            </div>
+                            <div class="select-list">
+                                <ul>
+                                    <li>
+                                        快运本部
+                                    </li>
+                                    <li>
+                                        华东分部
+                                    </li>
+                                    <li>
+                                        华北分部
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control fl clearfix">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>网点账号：</label>
+                        <input type="text" placeholder="请输入手机号">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>登录密码：</label>
+                        <input type="password" placeholder="设置登录密码">
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">新建</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--代售网点详情-->
+<div class="modal fade myModalDetail" id="myModalDetail" tabindex="-1" role="dialog" aria-labelledby="myModalDetailLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalDetailLabel">代收网点详情</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <form action="" class="clearfix">
+                    <div class="first-floor clearfix">
+                        <div class="form-control fl clearfix">
+                            <label>网点编号：</label>
+                           <span>上海01-DS001</span>
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>网点名称：</label>
+                            <input type="text" value="超新星水果店">
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>当前状态：</label>
+                           <span>在线</span>
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>网点类型：</label>
+                            <div class="select">
+                                <div class="result">
+                                    <span>网点类别</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-control fl clearfix">
+                            <label>老板名称：</label>
+                            <input type="text" value="勾稃草">
+                        </div>
+
+                        <div class="form-control fl clearfix">
+                            <label>老板手机：</label>
+                            <input type="text" value="13200000000">
+                        </div>
+                    </div>
+                    <div class="second-floor clearfix">
+                        <div class="form-control fl clearfix">
+                            <label>所属分公司：</label>
+                            <input type="text" value="0001">
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>分公司名称：</label>
+                           <span>上海分公司</span>
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>所属营业部：</label>
+                            <input type="text" value="上海0001">
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>营业部名称：</label>
+                            <span>水产路营业部</span>
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>所属店小二：</label>
+                            <input type="text" value="所属店小二">
+
+                        </div>
+                        <div class="form-control fl clearfix">
+                            <label>代收网点提成：</label>
+                            <input type="text" value="100" class="num-input"><span>%</span>
+                        </div>
+                    </div>
+                  <div class="third-floor clearfix">
+                    <div class="form-control fl clearfix">
+                        <label>网点账号：</label>
+                        <input type="text" value="18000000000">
+                    </div>
+                    <div class="form-control fl clearfix">
+                        <label>登录密码：</label>
+                        <input type="password" placeholder="*****">
+                        <button>重置</button>
+                    </div>
+                      <div class="form-control fl clearfix">
+                          <label>最近登录时间：</label>
+                          <span>2016-03-23</span>
+                      </div>
+                      <div class="form-control fl clearfix">
+                          <label>离线持续时间：</label>
+                          <span>12小时32分54秒</span>
+                      </div>
+                  </div>
+                    <div class="detail-info">
+                        上次修改时间：2016.03.21  15:22:45
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">保存</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/modal.min.js"></script>
+<script src="js/base.js"></script>
+<script>
+    $(function () {
+        //日期选择
+        $(".datepicker").datepicker({
+            dateFormat: "yy-mm-dd",
+            autoSize: true,
+            navigationAsDateFormat: true,
+            dayNamesMin: ["日", "一", "二", "三", "四", "五", "六"],
+            monthNames: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
+        });
+ //     模态框调用代码
+        //导入
+ //      $("#myModalIn").modal("show");
+        //导出
+ //        $("#myModalOut").modal("show");
+        //导入导出成功
+ //    $('#myModal').modal('show');
+        //导入导出失败
+ //    $('#myModal1').modal('show');
+        //
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="keywords" content="远成快运">
+    <meta name="description" content="远成快运">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <meta name="copyright" content="远成快运">
+
+    <!--需要加载的css文件-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--结束-->
+    <!--需要加载的js文件-->
+
+    <!--结束-->
+</head>
+<body class="clearfix">
+
+        <div class="main-content">
+
+            <div class="search-info clearfix" id="guanli">
+                <div class="info-txt fl">
+                    共有 <span>6666</span> 代收网点， 其中在线共 <span>999</span>
+                </div>
+                <div class="operation1 fl">
+                    <a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModalSet1">批量设置</a>
+                    <a href="javascript:void(0)" class="import" data-toggle="modal" data-target="#myModalAddPerson">角色管理</a>
+                </div>
+                <div class="operation fr">
+                   <span class="red">
+                       启动账号、修改密码等操作请到bos上操作
+                   </span>
+                </div>
+
+            </div>
+            <div class="table-box">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </th>
+                        <th>
+                            序号
+                        </th>
+                        <th>
+                            <div class="select">
+
+                            <div class="result">
+                                <span>角色</span> <i class="iconfont icon-jiantou"></i>
+                            </div>
+                            <div class="select-list">
+                                <ul>
+                                    <li>
+                                        快运本部
+                                    </li>
+                                    <li>
+                                        分公司
+                                    </li>
+                                    <li>
+                                        大区
+                                    </li>
+                                </ul>
+                            </div>
+
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>用户名
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="用户名" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>手机
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="手机" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>职位
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="职位" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>账号
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="账号" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>所属公司
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="所属公司" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="default-show">
+                                <i class="iconfont icon-chunwenbentag"></i>营业部
+                            </div>
+                            <div class="active-show">
+                                <div class="form-control clearfix">
+                                    <input type="text" placeholder="营业部" >
+                                    <button type="button"><i class="iconfont icon-MS-sousuo"></i></button>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+
+                            <div class="select">
+                                <div class="result">
+                                    <span>状态</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            全部
+                                        </li>
+                                        <li>
+                                            已激活
+                                        </li>
+                                        <li>
+                                            未激活
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a href="">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                张龙
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                13277777777
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                总经理
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                123658
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                水产营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                               已激活
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a href="">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                张龙
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                13277777777
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                总经理
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                123658
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                水产营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                已激活
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a href="">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                张龙
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                13277777777
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                总经理
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                123658
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                水产营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                已激活
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a href="">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                张龙
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                13277777777
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                总经理
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                123658
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                水产营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                已激活
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)" class="check-box "></a>
+                        </td>
+                        <td>
+                            <a href="">
+                                01
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                快运本部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                张龙
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                13277777777
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                总经理
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                123658
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                上海分公司
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                水产营业部
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                已激活
+                            </a>
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="page-cake">
+                    <form action="">
+                        <span>共20条记录  </span>
+                        <span> 当前显示10条</span>
+                        <a href=""><i class="iconfont icon-diyiyebackward"></i></a>
+                        <a href=""><i class="iconfont icon-shangyiyeprevious"></i></a>
+                        <span>第</span><input type="text"><span>页</span>
+                        <button type="submit">确定</button>
+                        <span>共10页</span>
+                        <a href=""><i class="iconfont icon-xiayiye"></i></a>
+                        <a href=""><i class="iconfont icon-diyiyebackward-copy"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- 角色管理-->
+<div class="modal fade" id="myModalAddPerson" tabindex="-1" role="dialog" aria-labelledby="myModalLabelAddPerson" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelAddPersont">角色权限管理</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <table class="add-person">
+                    <thead>
+                    <tr>
+                        <th>
+                            序号
+                        </th>
+                        <th>
+                            角色名称
+                        </th>
+                        <th>
+                            备注
+                        </th>
+                        <th>
+                            菜单权限
+                        </th>
+                        <th>
+                            访问权限
+                        </th>
+                        <th>
+                            操作
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                         1
+                        </td>
+                        <td>
+                         快运本部
+                        </td>
+                        <td>
+                         备注
+                        </td>
+                        <td>
+
+                            <div class="select-more">
+                                <div class="result-more">
+                                    <span>全部菜单</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list-more">
+                                    <ul>
+                                        <li class="total-control clearfix ">
+                                            <span>全部菜单</span>
+                                            <a class="check-box-small"></a>
+                                        </li>
+                                        <li class="">
+                                            <dl class="active">
+                                                <dt class="clearfix ">
+                                                   <span><i></i> 运营管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix ">
+                                                  <span>未完成的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                 <dd class="clearfix">
+                                                     <span>已完成的订单</span> <a class="check-box-small"></a>
+                                                 </dd>
+                                                <dd class="clearfix">
+                                                    <span>已取消的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>网点管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>店小二管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>客户管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>客户列表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>报表查询</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>营业部报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>系统设置</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>角色管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>菜单管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </td>
+
+                        <td>
+                            <div class="select">
+                                <div class="result">
+                                    <span>全部内容</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            快运本部
+                        </td>
+                        <td>
+                            备注
+                        </td>
+                        <td>
+
+                            <div class="select-more">
+                                <div class="result-more">
+                                    <span>全部菜单</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list-more">
+                                    <ul>
+                                        <li class="total-control clearfix ">
+                                            <span>全部菜单</span>
+                                            <a class="check-box-small"></a>
+                                        </li>
+                                        <li class="">
+                                            <dl class="active">
+                                                <dt class="clearfix ">
+                                                    <span><i></i> 运营管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix ">
+                                                    <span>未完成的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>已完成的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>已取消的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>网点管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>店小二管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>客户管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>客户列表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>报表查询</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>营业部报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>系统设置</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>角色管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>菜单管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </td>
+
+                        <td>
+                            <div class="select">
+                                <div class="result">
+                                    <span>全部内容</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            快运本部
+                        </td>
+                        <td>
+                            备注
+                        </td>
+                        <td>
+
+                            <div class="select-more">
+                                <div class="result-more">
+                                    <span>全部菜单</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list-more">
+                                    <ul>
+                                        <li class="total-control clearfix ">
+                                            <span>全部菜单</span>
+                                            <a class="check-box-small"></a>
+                                        </li>
+                                        <li class="">
+                                            <dl class="active">
+                                                <dt class="clearfix ">
+                                                    <span><i></i> 运营管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix ">
+                                                    <span>未完成的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>已完成的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>已取消的订单</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>网点管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>店小二管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>客户管理</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>客户列表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>报表查询</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>营业部报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>代收网点报表</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="">
+                                            <dl>
+                                                <dt class="clearfix">
+                                                    <span><i></i>系统设置</span>     <a class="check-box-small"></a>
+                                                </dt>
+                                                <dd class="clearfix">
+                                                    <span>角色管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                                <dd class="clearfix">
+                                                    <span>菜单管理</span> <a class="check-box-small"></a>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </td>
+
+                        <td>
+                            <div class="select">
+                                <div class="result">
+                                    <span>全部内容</span> <i class="iconfont icon-jiantou"></i>
+                                </div>
+                                <div class="select-list">
+                                    <ul>
+                                        <li>
+                                            快运本部
+                                        </li>
+                                        <li>
+                                            华东分部
+                                        </li>
+                                        <li>
+                                            华北分部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                 <div class="add-tr-btn">
+                     <button type="button">新增角色</button>
+                 </div>
+                <div class="add-info">
+                    上次修改时间：2016.03.21  15:22:45
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 批量设置-->
+<div class="modal fade" id="myModalSet1" tabindex="-1" role="dialog" aria-labelledby="myModalLabelSet1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabelSet1">批量设置</h4>
+                <a data-dismiss="modal"><i class="iconfont icon-iconfontcha"></i></a>
+            </div>
+            <div class="modal-body">
+                <div class="tip-info">
+                    当前共选中<b>5</b>个账户
+                </div>
+                <div class="tip-info">
+                    选择角色
+                    <div class="select">
+                    <div class="result">
+                        <span>快运本部</span> <i class="iconfont icon-jiantou"></i>
+                    </div>
+                    <div class="select-list">
+                        <ul>
+                            <li>
+                                快运本部
+                            </li>
+                            <li>
+                                分公司
+                            </li>
+                            <li>
+                                大区
+                            </li>
+                            <li>
+                                快运本部
+                            </li>
+                            <li>
+                                分公司
+                            </li>
+                            <li>
+                                大区
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/modal.min.js"></script>
+<script src="js/base.js"></script>
+<script>
+
+
+
+</script>
+</body>
+</html>

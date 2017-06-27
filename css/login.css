@@ -1,0 +1,84 @@
+.back-header {
+  height: 80px;
+  width: 100%;
+  padding: 15px 0; }
+  .back-header img {
+    width: 254px;
+    height: 50px; }
+
+.login-box {
+  width: 100%;
+  height: 500px;
+  background: url("../images/login_bg.jpg") no-repeat center; }
+  .login-box .wrap {
+    height: 100%;
+    position: relative; }
+    .login-box .wrap .login-div {
+      width: 320px;
+      height: 340px;
+      position: absolute;
+      border-radius: 5px;
+      top: 85px;
+      right: 20px;
+      background: #FFFFFF;
+      box-shadow: 0 0 3px #666;
+      padding: 30px; }
+      .login-box .wrap .login-div .login-title {
+        color: #47beb0;
+        font: 400 22px/30px "Microsoft Yahei"; }
+      .login-box .wrap .login-div .form-control {
+        width: 100%;
+        margin-top: 15px; }
+        .login-box .wrap .login-div .form-control label {
+          display: block;
+          float: left;
+          width: 40px;
+          height: 36px; }
+          .login-box .wrap .login-div .form-control label img {
+            width: 100%;
+            height: 100%; }
+        .login-box .wrap .login-div .form-control input {
+          width: 215px;
+          height: 36px;
+          float: left;
+          display: block;
+          border: 1px solid #CBCBCB;
+          border-left: none;
+          outline: none;
+          padding: 0 5px; }
+.login-box .wrap .login-div .form-control input:focus{
+  border: 1px solid #4FD2C2;
+}
+.login-box .wrap .login-div .form-control button {
+          width: 255px;
+          height: 36px;
+          background: #4FD2C2;
+  border-radius: 3px;
+          color: #fff;
+          outline: none; }
+.login-box .wrap .login-div .form-control button:hover{
+  background:#46b9ab;
+}
+.check-box {
+  color: #4fd2c2;
+  font: 400 14px/30px "Microsoft Yahei";
+  position: relative;
+  padding-left: 25px;
+  height: 30px;
+  display: inline-block;
+  margin: 0 auto;
+  background: url("../images/check_box.png") no-repeat 5px center;
+  background-size: 15px 15px; }
+
+.check-box.checked {
+  background: url("../images/check_box_hover.png") no-repeat 5px center;
+  background-size: 15px 15px; }
+.footer{
+  width:100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  color: #333;
+  background: #E7E5E2;
+}
+/*# sourceMappingURL=login.css.map */
